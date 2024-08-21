@@ -59,7 +59,7 @@ function IndexHeader() {
         />
         <h6 className="category category-absolute">
           Designed and coded by{" "}
-          <img src='../../../assets/img/pixelMe.png' />
+          <img className='pixel' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/pixelMe.png?raw=true' />
           Jianna Braza
         </h6>
       </div>
