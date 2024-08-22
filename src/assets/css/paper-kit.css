@@ -25,7 +25,9 @@
 
 .pixel {
   border-radius: 50%;
-  width:100px;
+  width:50px;
+  padding-right: 5px;
+  padding-left:5px;
 }
 
 .bootstrap-switch {

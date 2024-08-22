@@ -31,36 +31,25 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/antoine-barres.jpg") + ")",
+            "url(" + require("assets/img/IMG_6854.png") + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title">Paper Kit React</h1>
-              <div className="fog-low">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
-              </div>
-              <div className="fog-low right">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
-              </div>
+              <h1 className="presentation-title">Personal Website</h1>
             </div>
             <h2 className="presentation-subtitle text-center">
-              Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
+              Aspiring Front-End Developer
             </h2>
           </Container>
         </div>
-        <div
-          className="moving-clouds"
-          style={{
-            backgroundImage: "url(" + require("assets/img/clouds.png") + ")",
-          }}
-        />
         <h6 className="category category-absolute">
-          Designed and coded by{" "}
+          Coded by{" "}
           <img className='pixel' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/pixelMe.png?raw=true' />
-          Jianna Braza
+          Jianna Braza | | Template from
+          <a href='https://www.creative-tim.com/product/paper-kit-react?tracking=first-time#'> Creative Tim</a>
         </h6>
       </div>
     </>
