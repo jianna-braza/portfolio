@@ -20,28 +20,20 @@ function AquapodSection() {
       <Navbar className="bg-primary" expand="lg">
         <Container>
           <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
-            The Aquapod: Water Resource Locator
+            The AquaPod (INFO 442)
           </NavbarBrand>
           <button
-            aria-controls="navbarNav"
-            aria-expanded={false}
-            aria-label="Toggle navigation"
             className="navbar-toggler navbar-toggler-right burger-menu"
             data-target="#navbar-primary"
-            data-toggle="collapse"
             id="navbar-primary"
             type="button"
           >
-            <span className="navbar-toggler-bar" />
-            <span className="navbar-toggler-bar" />
-            <span className="navbar-toggler-bar" />
           </button>
           <UncontrolledCollapse navbar toggler="#navbar-primary">
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  href="https://github.com/UW-INFO442-AU23/aquanauts"
                 >
                   <i
                     aria-hidden={true}
@@ -54,34 +46,33 @@ function AquapodSection() {
           </UncontrolledCollapse>
         </Container>
       </Navbar>
-
       <div className='section' >
         <Container>
-          <img src='assets/img/aquanautsWebsite.png' />
-        </Container>
-      </div>
-
-
-
-
-
-      <div className="section">
-        <Container>
           <Row>
-            <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title">Completed with examples</h2>
-              <p className="description">
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. More importantly, looking at them will give you a picture of
-                what you can built with this powerful kit.
+            <Col lg="6" md="12">
+              <img src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/aquanautsWebsite.png?raw=true' />
+            </Col>
+            <Col lg="6" md="12">
+              <h2 className="title">King County Water Resource Locator</h2>
+              <p>
+                This project focuses on Goal 6 from the UN SDGS: Clean Water and Sanitation.
+                This issue arises due to water resources, specifically sanitized and clean drinking
+                water, are not easily accessible to the majority of people.
+                Although access to water is a basic human right, the resources and supplies may not
+                be publicly known, which can be a major barrier for those in need of them. Likewise,
+                there are many capable people who could help donate these supplies or uncover
+                services. However, many people are unaware of how they can assist in this issue.
+                The app aims to serve three purposes for the people of King County, WA:
               </p>
+              <ul>
+                <li>Be a resource that people can use to help find clean water resources: water bottle refilling stations, water fountains, public restrooms, etc.</li>
+                <li>Serve as a hub to help promote charities that people can donate to or learn more</li>
+                <li>Educate users of the current state of King County and how water availability affects the community</li>
+              </ul>
             </Col>
           </Row>
         </Container>
       </div>
-
-
     </div>
   );
 }
