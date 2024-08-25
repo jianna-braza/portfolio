@@ -51,12 +51,16 @@ function BetterTomorrowSection() {
         <Container>
           <Row>
             <Col lg="6" md="12">
-              <img className='imageSizing projectImages' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/betterTomorrow.png?raw=true' />
+              <img className='betterTomorrowImg projectImages' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/betterTomorrowSmall.png?raw=true' />
             </Col>
             <Col lg="6" md="12">
               <h2 className="title">Forum to personally connect people in need with those that can help</h2>
               <p>
-
+                The first project I've worked on. Aimed to create an online community by allowing
+                people to connect based on the things they need and/or the resources they have to help.
+                Consists of a homepage describing our mission and our team with a login feature, a
+                profile creation page, and a profile viewing page with filter options to help users
+                find profiles that fir under the criteria they are looking for.
               </p>
             </Col>
           </Row>
