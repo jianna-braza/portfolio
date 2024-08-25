@@ -23,6 +23,14 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+ .climateClosetSection {
+  background-color:rgb(42, 104, 248) !important;
+}
+
+.textColor {
+  color:rgba(255, 255, 255, 0.929) !important;
+}
+
 p, li {
   color:black;
 }
