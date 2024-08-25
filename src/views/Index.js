@@ -29,6 +29,7 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 import AquapodSection from "views/index-sections/AquapodSection.js";
 import BearableSection from "views/index-sections/BearableSection.js";
 import ClimateClosetSection from "views/index-sections/ClimateClosetSection.js";
+import BetterTomorrowSection from "views/index-sections/BetterTomorrowSection.js";
 // import SectionButtons from "views/index-sections/SectionButtons.js";
 // import SectionNavbars from "views/index-sections/SectionNavbars.js";
 // import SectionNavigation from "views/index-sections/SectionNavigation.js";
@@ -59,6 +60,7 @@ function Index() {
         <BearableSection />
         <AquapodSection />
         <ClimateClosetSection />
+        <BetterTomorrowSection />
         {/* <SectionButtons />
         <SectionNavbars />
         <SectionNavigation />

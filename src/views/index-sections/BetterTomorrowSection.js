@@ -11,16 +11,17 @@ import {
   Row,
   Col
 } from "reactstrap";
+import { walkUpBindingElementsAndPatterns } from 'typescript';
 
 
-function ClimateClosetSection() {
+function BetterTomorrowSection() {
 
   return (
     <div>
-      <Navbar className="climateClosetSection" expand="lg">
+      <Navbar className="bg-primary" expand="lg">
         <Container>
-          <NavbarBrand className='textColor' href="#pablo" onClick={(e) => e.preventDefault()}>
-            Climate Closet (INFO 441)
+          <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+            A Better Tomorrow
           </NavbarBrand>
           <button
             className="navbar-toggler navbar-toggler-right burger-menu"
@@ -32,8 +33,8 @@ function ClimateClosetSection() {
           <UncontrolledCollapse navbar toggler="#navbar-primary">
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink className='textColor'
-                  href="https://github.com/jianna-braza/ClimateCloset"
+                <NavLink
+                  href="https://github.com/info340-au22/project-makenzieedwards8"
                 >
                   <i
                     aria-hidden={true}
@@ -50,17 +51,13 @@ function ClimateClosetSection() {
         <Container>
           <Row>
             <Col lg="6" md="12">
-              <h2 className="title">Suggesting clothes based on Seattle's weather</h2>
-              <p>
-                ClimateCloset is a web application designed to help users organize
-                their wardrobes based on temperature. The application allows users
-                to upload images of their clothing items and tag them with temperature
-                categories such as hot, warm, cool, and cold. Users can then retrieve their
-                clothing items based on these temperature tags.
-              </p>
+              <img className='projectImages' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/aquanautsWebsite.png?raw=true' />
             </Col>
             <Col lg="6" md="12">
-              <img className='imageSizing projectImages' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/ClimateCloset.png?raw=true' />
+              <h2 className="title">Forum to personally connect people in need with those that can help</h2>
+              <p>
+
+              </p>
             </Col>
           </Row>
         </Container>
@@ -69,4 +66,4 @@ function ClimateClosetSection() {
   );
 }
 
-export default ClimateClosetSection;
+export default BetterTomorrowSection;

@@ -24,7 +24,7 @@
  */
 
  .climateClosetSection {
-  background-color:rgb(42, 104, 248) !important;
+  background-color:rgb(11, 0, 133) !important;
 }
 
 .textColor {
@@ -33,6 +33,7 @@
 
 p, li {
   color:black;
+  font-weight:normal !important;
 }
 
 .pixel {
