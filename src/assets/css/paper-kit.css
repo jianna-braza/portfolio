@@ -23,11 +23,24 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+p, li {
+  color:black;
+}
+
 .pixel {
   border-radius: 50%;
   width:50px;
   padding-right: 5px;
   padding-left:5px;
+}
+
+.projectImages {
+  border: 5px solid #555;
+}
+
+.imageSizing {
+  width:800px;
+  height: 350px;
 }
 
 .bootstrap-switch {

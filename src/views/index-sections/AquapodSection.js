@@ -50,7 +50,7 @@ function AquapodSection() {
         <Container>
           <Row>
             <Col lg="6" md="12">
-              <img src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/aquanautsWebsite.png?raw=true' />
+              <img className='projectImages' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/aquanautsWebsite.png?raw=true' />
             </Col>
             <Col lg="6" md="12">
               <h2 className="title">King County Water Resource Locator</h2>
