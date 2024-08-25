@@ -58,7 +58,7 @@ function BearableSection() {
 
             </Col>
             <Col lg="6" md="12">
-              <img src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/aquanautsWebsite.png?raw=true' />
+              <img src='' />
             </Col>
           </Row>
         </Container>
