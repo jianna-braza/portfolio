@@ -51,7 +51,7 @@ function BetterTomorrowSection() {
         <Container>
           <Row>
             <Col lg="6" md="12">
-              <img className='projectImages' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/aquanautsWebsite.png?raw=true' />
+              <img className='imageSizing projectImages' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/betterTomorrow.png?raw=true' />
             </Col>
             <Col lg="6" md="12">
               <h2 className="title">Forum to personally connect people in need with those that can help</h2>
